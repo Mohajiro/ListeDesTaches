@@ -38,7 +38,8 @@ label {
 }
 
 #search {
-    width: calc(100% - 110px);
+    width: calc(100% - 50px);
+    text-align: center;
     padding: 10px 0;
     margin: 10px 0;
     border: 2px solid #ff8ac6;
