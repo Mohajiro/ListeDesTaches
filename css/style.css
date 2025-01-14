@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f8c1e2, #ffc1fa);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff8ac6;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#search {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ff8ac6;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+button {
+    background: #ff8ac6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #e876ae;
+}
+
+#liste {
+    text-align: left;
+}
+
+.note {
+    background: #ffe6f3;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.ligne p {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.deleted {
+    display: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ff8ac6;
+    margin: 10px 0;
+}
