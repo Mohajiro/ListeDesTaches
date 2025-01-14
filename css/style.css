@@ -18,6 +18,7 @@ main {
     max-width: 500px;
     padding: 20px;
     text-align: center;
+    margin: 0 10px;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 {
 
 form {
     margin-bottom: 20px;
+
 }
 
 label {
@@ -37,7 +39,7 @@ label {
 
 #search {
     width: calc(100% - 110px);
-    padding: 10px;
+    padding: 10px 0;
     margin: 10px 0;
     border: 2px solid #ff8ac6;
     border-radius: 25px;
